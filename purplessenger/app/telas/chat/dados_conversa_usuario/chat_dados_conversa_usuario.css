@@ -1,0 +1,226 @@
+.dados-conversa-usuario {
+  display: none;
+  width: 400px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  background: #f7f7f7;
+}
+
+.dados-conversa-usuario-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background: #eeeeee;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.dados-conversa-usuario-cancela {
+  margin-left: 25px;
+  fill: #000000;
+  user-select: none;
+  cursor: pointer;
+}
+
+.dados-conversa-usuario-menu span {
+  margin-left: 10px;
+  margin-top: -3px;
+  font-family: arial;
+  font-size: 17px;
+  font-weight: 500;
+  color: #444444;
+  line-height: 75px;
+  user-select: none;
+  cursor: text;
+}
+
+.dados-conversa-usuario-conteudo {
+  width: 100%;
+  height: calc(100% - 60px);
+  overflow-y: scroll;
+}
+
+.dados-conversa-usuario-conteudo::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+.dados-conversa-usuario-conteudo::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 25px;
+}
+
+.dados-conversa-usuario-conteudo-pac1 {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.dados-conversa-usuario-conteudo-campo-perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  width: 100%;
+  height: 200px;
+}
+
+.dados-conversa-usuario-conteudo-perfil {
+  display: flex;
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+  background: #c0c0c0;
+  background-position: 30% 45%;
+  background-size: cover;
+  border-collapse: collapse;
+  border-radius: 100%;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.dados-conversa-usuario-conteudo-user {
+  margin: 0px;
+  padding: 20px 10%;
+  width: 80%;
+  height: auto;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: 500;
+  color: #444444;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+  cursor: text;
+}
+
+.dados-conversa-usuario-conteudo-pac2 {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  height: 165px;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.arquivos-enviados-recebidos-linha-um {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 5%;
+  width: 90%;
+  height: 50px;
+}
+
+.arquivos-enviados-recebidos-linha-um-text {
+  font-family: arial;
+  font-size: 14px;
+  font-weight: 500;
+  color: #943ce6;
+  user-select: none;
+  cursor: pointer;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.arquivos-enviados-recebidos-linha-um-icon {
+  fill: #000000;
+  cursor: pointer;
+}
+
+.arquivos-enviados-recebidos-linha-dois {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 8%;
+  width: 84%;
+  height: calc(100% - 65px);
+}
+
+.arquivos-enviados-recebidos-linha-dois-img {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin-left: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dados-conversa-usuario-conteudo-pac3 {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.recado-ramal-linha-um {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 5%;
+  width: 90%;
+  height: 50px;
+}
+
+.recado-ramal-linha-um-text {
+  width: 100%;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: 500;
+  color: #943ce6;
+  user-select: none;
+  cursor: text;
+}
+
+.recado-ramal-linha-dois {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5%;
+  width: 90%;
+  height: auto;
+}
+
+.recado-ramal-linha-dois-recado {
+  font-family: arial;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4b5961;
+  cursor: text;
+  user-select: none;
+}
+
+.recado-ramal-linha-tres {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5%;
+  width: 90%;
+  height: auto;
+}
+
+.recado-ramal-linha-tres-ramal {
+  padding: 20px 0px;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4b5961;
+  cursor: text;
+  user-select: none;
+}
+
+/* sendo aplicado no js */
+.dados-conversa-usuario-conteudo-perfil-aplica {
+  width: 135px;
+  height: 135px;
+  transform: scale(1.4);
+  transition-duration: 0.4s;
+}

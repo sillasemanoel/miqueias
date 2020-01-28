@@ -1,0 +1,220 @@
+.papel-de-parede {
+  display: none;
+  width: 400px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  background: #ffffff;
+}
+
+.papel-de-parede-menu {
+  width: 100%;
+  height: 110px;
+  background: #943ce6;
+  display: flex;
+}
+
+.papel-de-parede-menu-seta {
+  margin-left: 25px;
+  margin-top: 70px;
+  fill: #000000;
+  cursor: pointer;
+  user-select: none;
+}
+
+.papel-de-parede-menu-nome {
+  margin-left: 15px;
+  margin-top: 46px;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 75px;
+  user-select: none;
+  cursor: text;
+}
+
+.papel-de-parede-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+  width: 100%;
+  height: auto;
+  max-height: calc(100% - 125px);
+  overflow-y: scroll;
+}
+
+.papel-de-parede-conteudo::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+.papel-de-parede-conteudo::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 25px;
+}
+
+._2l-YP {
+  margin-top: 15px;
+  margin-left: 14px;
+  width: 115px;
+  height: 115px;
+  cursor: pointer;
+}
+
+._2l-YP:hover {
+  width: 107px;
+  height: 107px;
+  border: 4px solid rgba(25, 24, 31, 0.6);
+}
+
+.corUm {
+  background: rgb(204, 235, 220) !important;
+}
+
+.corDois {
+  background: rgb(174, 216, 199) !important;
+}
+
+.corTres {
+  background: rgb(122, 203, 165) !important;
+}
+
+.corQuatro {
+  background: rgb(199, 233, 235) !important;
+}
+
+.corCinco {
+  background: rgb(169, 219, 216) !important;
+}
+
+.corSeis {
+  background: rgb(104, 213, 217) !important;
+}
+
+.corSete {
+  background: rgb(110, 195, 212) !important;
+}
+
+.corOito {
+  background: rgb(242, 218, 213) !important;
+}
+
+.corNove {
+  background: rgb(242, 213, 225) !important;
+}
+
+.corDez {
+  background: rgb(251, 202, 210) !important;
+}
+
+.corOnze {
+  background: rgb(255, 167, 168) !important;
+}
+
+.corDoze {
+  background: rgb(203, 218, 236) !important;
+}
+
+.corTreze {
+  background: rgb(215, 211, 235) !important;
+}
+
+.corCatorze {
+  background: rgb(229, 192, 235) !important;
+}
+
+.corQuinze {
+  background: rgb(208, 222, 177) !important;
+}
+
+.corDezesseis {
+  background: rgb(222, 224, 180) !important;
+}
+
+.corDezessete {
+  background: rgb(230, 223, 168) !important;
+}
+
+.corDezoito {
+  background: rgb(247, 233, 168) !important;
+}
+
+.corDezenove {
+  background: rgb(255, 209, 164) !important;
+}
+.corVinte {
+  background: rgb(255, 138, 140) !important;
+}
+
+.corVinteUm {
+  background: rgb(255, 89, 120) !important;
+}
+
+.corVinteDois {
+  background: rgb(245, 96, 86) !important;
+}
+
+.corVinteTres {
+  background: rgb(220, 110, 79) !important;
+}
+
+.corVinteQuatro {
+  background: rgb(230, 227, 101) !important;
+}
+
+.corVinteCinco {
+  background: rgb(115, 199, 128) !important;
+}
+
+.corVinteSeis {
+  background: rgb(34, 147, 164) !important;
+}
+
+.corVinteSete {
+  background: rgb(33, 158, 217) !important;
+}
+
+.corVinteOito {
+  background: rgb(43, 90, 166) !important;
+}
+
+.corVinteNove {
+  background: rgb(116, 103, 106) !important;
+}
+
+.corTrinta {
+  background: rgb(72, 50, 77) !important;
+}
+
+.corTrintaUm {
+  background: rgb(222, 227, 233) !important;
+}
+
+.corTrintaDois {
+  background: rgb(217, 218, 222) !important;
+}
+
+.corTrintaTres {
+  background: rgb(192, 193, 196) !important;
+}
+
+.corTrintaQuatro {
+  background: rgb(126, 144, 163) !important;
+}
+
+.corTrintaCinco {
+  background: rgb(85, 98, 111) !important;
+}
+
+.corTrintaSeis {
+  background: rgb(36, 54, 64) !important;
+}
+
+.corTrintaSete {
+  background: rgb(22, 33, 39) !important;
+}
+
+.corTrintaOito {
+  background: rgb(19, 19, 19) !important;
+}

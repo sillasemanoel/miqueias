@@ -1,0 +1,106 @@
+.confirma-altera-perfil-grupo-none {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+}
+
+.confirma-altera-perfil-grupo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.fundo-confirma-altera-perfil-grupo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.caixa-confirma-altera-perfil-grupo {
+  display: block;
+  width: 450px;
+  height: 60%;
+  max-height: 420px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  z-index: 3;
+}
+
+.caixa-confirma-altera-perfil-grupo-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px 5px 0px 0px;
+  background: #943ce6;
+}
+
+.caixa-confirma-altera-perfil-grupo-menu-cancela {
+  fill: #000000;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.caixa-confirma-altera-perfil-grupo-menu-tentanov {
+  fill: #000000;
+  margin-left: 230px;
+  cursor: pointer;
+}
+
+.caixa-confirma-altera-perfil-grupo-menu-tentanov-text {
+  margin-left: 5px;
+  font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu,
+    Cantarell, Fira Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.campo-caixa-confirma-altera-perfil-grupo-foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 120px);
+}
+
+.caixa-confirma-altera-perfil-grupo-foto {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 90%;
+  user-select: none;
+}
+
+.campo-confirma-altera-perfil-grupo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  border-radius: 0px 0px 5px 5px;
+  background: #f7f7f7;
+}
+
+.botao-confirma-altera-perfil-grupo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 0px;
+  border-radius: 100px;
+  background: #943ce6;
+  cursor: pointer;
+  outline: none;
+}

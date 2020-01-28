@@ -1,0 +1,323 @@
+.adiciona-participante-none {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+}
+
+.adiciona-participante-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.fundo-confirma-adiciona-participante {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.caixa-adiciona-participante {
+  display: block;
+  width: 450px;
+  height: auto;
+  max-height: 350px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  z-index: 3;
+}
+
+.caixa-confirma-adiciona-participante-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px 5px 0px 0px;
+  background: #943ce6;
+}
+
+.caixa-confirma-adiciona-participante-menu-cancela {
+  fill: #000000;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.caixa-confirma-adiciona-participante-menu span {
+  margin-left: 10px;
+  margin-top: -1px;
+  font-family: arial;
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 75px;
+  user-select: none;
+  cursor: text;
+}
+
+.adiciona-participante-pessoas-que-foram-selecionadas-none {
+  margin: 0px 20px;
+  width: 360px;
+  height: 45px;
+  display: none;
+}
+
+.adiciona-participante-pessoas-que-foram-selecionadas-flex {
+  padding-left: 10px;
+  margin: 0px 0px;
+  width: calc(100% - 20px);
+  height: 45px;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.adiciona-participante-pessoas-que-foram-selecionadas-flex::-webkit-scrollbar {
+  height: 5px;
+  background: transparent;
+}
+
+.adiciona-participante-pessoas-que-foram-selecionadas-flex::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 25px;
+}
+
+.adiciona-participante-pessoas-que-foram-selecionadas-mac-none {
+  /* display: none; */
+  width: auto;
+  height: 30px;
+}
+
+.adiciona-participante-pessoas-que-foram-selecionadas-mac-flex {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  width: auto;
+  height: 30px;
+  background: #eeeeee;
+  border-radius: 100px;
+}
+
+.adiciona-participante-selecionadas-mac-img {
+  min-width: 30px;
+  min-height: 30px;
+  padding: 0px;
+  background: #c0c0c0;
+  background-position: 30% 45%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-collapse: collapse;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.adiciona-participante-selecionadas-mac-span {
+  margin-left: 5px;
+  margin-right: 2px;
+  position: relative;
+  top: -1px;
+  font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu,
+    Cantarell, Fira Sans, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #444444;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+.adiciona-participante-selecionadas-mac-campo-img-fecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #eeeeee;
+  width: 22px;
+  height: 22px;
+  padding: 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-collapse: collapse;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.adiciona-participante-adiciona-participanteselecionadas-mac-campo-img-fecha
+  svg {
+  fill: #000000;
+  user-select: none;
+}
+
+.adiciona-participante-selecionadas-mac-campo-img-fecha:hover {
+  background: #f6f6f6;
+}
+
+.busca-adiciona-participante {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.busca-campo-adiciona-participante {
+  margin-left: 20px;
+  padding-left: 10px;
+  width: 100%;
+  height: 33px;
+  font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu,
+    Cantarell, Fira Sans, sans-serif;
+  font-size: 14px;
+  color: #666666;
+  background: #ffffff;
+  border: 0px;
+  align-items: center;
+  outline: none;
+  user-select: none;
+}
+
+.nice-select-add-part {
+  border-radius: 0px;
+}
+
+.pessoas-adiciona-participante {
+  width: 100%;
+  height: auto;
+  max-height: 195px;
+  overflow-y: scroll;
+}
+
+.pessoas-adiciona-participante::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+.pessoas-adiciona-participante::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 25px;
+}
+
+.pessoas-adiciona-participante-jaconversa-chat {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pessoas-adiciona-participante-jaconversa-chat:hover {
+  background: #eeeeee;
+}
+
+.pessoas-adiciona-participante-responsivo-conversa {
+  margin: 0px;
+  width: 70px;
+  height: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+}
+
+.pessoas-adiciona-participante-responsivo-conversa:nth-child(2) {
+  margin: 0px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  display: flex;
+}
+
+.pessoas-adiciona-participante-jaconversa-chat-img {
+  margin-top: 7.5px;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  background: #c0c0c0;
+  background-position: 30% 45%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-collapse: collapse;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.pessoas-adiciona-participante-line {
+  margin: 0px;
+  width: 60px;
+  height: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.pessoas-adiciona-participante-user {
+  margin-top: 15px;
+  margin-left: 5px;
+  width: 95%;
+  height: auto;
+  font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu,
+    Cantarell, Fira Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #444444;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+.pessoas-adiciona-participante-recado {
+  margin-top: -18px;
+  margin-left: 5px;
+  width: 95%;
+  height: auto;
+  font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu,
+    Cantarell, Fira Sans, sans-serif;
+  font-size: 13px;
+  color: #4b5961;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+.campo-confirma-adiciona-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  border-radius: 0px 0px 5px 5px;
+  background: #f7f7f7;
+}
+
+.botao-confirma-adiciona-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 0px;
+  border-radius: 100px;
+  background: #943ce6;
+  cursor: pointer;
+  outline: none;
+}

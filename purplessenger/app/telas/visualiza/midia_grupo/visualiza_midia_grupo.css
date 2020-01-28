@@ -1,0 +1,81 @@
+.visualiza-foto-arquivo-grupo-perfil {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.visualiza-foto-arquivo-grupo-perfil-block {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.visualiza-foto-arquivo-grupo-perfil-menu {
+  margin: 0px;
+  width: 100%;
+  height: 60px;
+  background: #eeeeee;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.visualiza-foto-arquivo-grupo-perfil-menu-img {
+  margin-top: 0px;
+  margin-left: 20px;
+  min-width: 45px;
+  min-height: 45px;
+  padding: 0px;
+  background: #c0c0c0;
+  background-position: 30% 45%;
+  background-size: cover;
+  border-collapse: collapse;
+  border-radius: 100%;
+}
+
+.visualiza-foto-arquivo-grupo-perfil-menu-user {
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+  width: calc(100% - 130px);
+  height: auto;
+  font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu,
+    Cantarell, Fira Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #444444;
+  line-height: 60px;
+  user-select: none;
+  cursor: text;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+.visualiza-foto-arquivo-grupo-perfil-menu-fecha {
+  margin: auto 20px auto auto;
+  fill: #000000;
+  cursor: pointer;
+  user-select: none;
+}
+
+.visualiza-foto-arquivo-grupo-perfil-menu-img-grande-campo {
+  display: flex;
+  width: 100%;
+  height: calc(100% - 60px);
+  justify-content: center;
+  align-items: center;
+}
+
+.visualiza-foto-arquivo-grupo-perfil-menu-img-grande {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  user-select: none;
+}

@@ -1,0 +1,227 @@
+.ajuda {
+  display: none;
+  width: 400px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  background: #ffffff;
+}
+
+.ajuda-menu {
+  display: flex;
+  width: 100%;
+  height: 110px;
+  background: #943ce6;
+}
+
+.ajuda-menu-seta {
+  margin-left: 25px;
+  margin-top: 70px;
+  fill: #000000;
+  cursor: pointer;
+  user-select: none;
+}
+
+.ajuda-menu-nome {
+  margin-left: 15px;
+  margin-top: 46px;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 75px;
+  user-select: none;
+  cursor: text;
+}
+
+.conteudo-ajuda {
+  display: block;
+  width: 100%;
+  height: calc(100% - 150px);
+  background: #f7f7f7;
+  overflow-y: scroll;
+}
+
+.conteudo-ajuda::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+.conteudo-ajuda::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 25px;
+}
+
+.animation {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: calc(50% - 110px);
+  width: 220px;
+  height: 220px;
+  background-position: 50% 45%;
+  background-size: cover;
+  border-collapse: collapse;
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+.sobre-sistema {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.sobre-sistema p {
+  margin: 5px;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: 500;
+  color: #666666;
+}
+
+.relatar-bug {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background: #eeeeee;
+  user-select: none;
+  cursor: pointer;
+  box-shadow: 10px 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.relatar-bug svg {
+  position: relative;
+  fill: #000000;
+}
+
+.campo-relatar-bug {
+  display: none;
+  text-align: center;
+  width: 100%;
+  height: calc(100% - 110px);
+  background: #f7f7f7;
+}
+
+.campo-relatar-bug-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  background: #eeeeee;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  user-select: none;
+  cursor: pointer;
+}
+
+.campo-relatar-bug-menu svg {
+  margin-left: 25px;
+  position: relative;
+  top: 1px;
+  fill: #000000;
+}
+
+.campo-relatar-bug-fundo-text {
+  margin-left: 5%;
+  margin-bottom: 50px;
+  width: 90%;
+  height: calc(100% - 180px);
+  border: 0px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.campo-relatar-bug-text {
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 89%;
+  height: calc(100% - 50px);
+  resize: none;
+  font-family: arial;
+  font-size: 14px;
+  color: #666666;
+  background: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  align-items: center;
+  outline: none;
+  user-select: none;
+  overflow-y: scroll;
+}
+
+.campo-relatar-bug-text::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+.campo-relatar-bug-text::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 25px;
+}
+
+.campo-relatar-bug-botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: calc(50% - 17.5px);
+  width: 50px;
+  height: 50px;
+  border: 0px;
+  border-radius: 100%;
+  background: #943ce6;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.08);
+  outline: none;
+  cursor: pointer;
+}
+
+.campo-relatar-bug-botao img {
+  fill: #000000;
+}
+
+.status-de-report {
+  display: none;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 70px;
+  left: 305px;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #00cf35;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  user-select: none;
+}
+
+.status-de-report-nd {
+  display: none;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 70px;
+  left: 255px;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #df262e;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  user-select: none;
+}
+
+.campo-relatar-bug span {
+  font-family: arial;
+  font-size: 14px;
+  font-weight: 500;
+  color: #777777;
+  user-select: none;
+}

@@ -1,0 +1,390 @@
+.lado-esquerdo-todas-conversas {
+  display: none;
+  width: 400px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  background: #ffffff;
+}
+
+.lado-esquerdo-todas-conversas-menu {
+  height: 110px;
+  background: #943ce6;
+  display: flex;
+}
+
+.lado-esquerdo-todas-conversas-seta {
+  margin-left: 25px;
+  margin-top: 70px;
+  fill: #000000;
+  cursor: pointer;
+  user-select: none;
+}
+
+.lado-esquerdo-todas-conversas-nome {
+  margin-left: 15px;
+  margin-top: 46px;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 75px;
+  user-select: none;
+  cursor: text;
+}
+
+.lado-esquerdo-todas-conversas-busca {
+  width: 100%;
+  height: 50px;
+  background: #f7f7f7;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.lado-esquerdo-todas-conversas-busca-lupa {
+  margin-left: 20px;
+  width: 50px;
+  height: 35px;
+  background: #ffffff;
+  border: 0px;
+  border-radius: 100px 0px 0px 100px;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.lado-esquerdo-todas-conversas-busca-lupa-img {
+  fill: #000000;
+  border: 0px;
+  cursor: pointer;
+  user-select: none;
+  padding: 9px;
+}
+
+.lado-esquerdo-todas-conversas-busca-seta-img {
+  display: none;
+  fill: #000000;
+  border: 0px;
+  cursor: pointer;
+  user-select: none;
+  padding: 7px;
+}
+
+.lado-esquerdo-todas-conversas-busca-campo {
+  position: relative;
+  width: calc(100% - 140px);
+  height: 33px;
+  font-family: arial;
+  font-size: 14px;
+  color: #666666;
+  background: #ffffff;
+  border: 0px;
+  align-items: center;
+  outline: none;
+  user-select: none;
+}
+
+.nice-select {
+  background: #ffffff;
+  border-radius: 0px 100px 100px 0px;
+  cursor: pointer;
+  margin-right: 20px;
+  outline: none;
+  position: relative;
+  text-align: left !important;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.nice-select.wide {
+  width: 50px;
+  height: 35px;
+}
+
+.nice-select:after {
+  border-bottom: 2px solid #943ce6;
+  border-right: 2px solid #943ce6;
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  margin-top: -4px;
+  pointer-events: none;
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform-origin: 66% 66%;
+  transform: rotate(45deg);
+  transition: all 0.15s ease-in-out;
+}
+
+.current {
+  display: none;
+}
+
+.nice-select.open:after {
+  transform: rotate(-135deg);
+}
+
+.nice-select.open .list {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1) translateY(0);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 3px;
+}
+
+.nice-select .list {
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  margin-top: 4px;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  right: -15px;
+  transform-origin: 50% 0;
+  transform: scale(0.75) translateY(-21px);
+  transition: all 0.1s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  z-index: 9;
+}
+
+.nice-select .list:hover .option:not(:hover) {
+  background: transparent !important;
+}
+
+.option.selected.focus {
+  color: #ffffff;
+}
+
+.nice-select .option {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 40px;
+  list-style: none;
+  min-height: 40px;
+  outline: none;
+  padding-left: 15px;
+  padding-right: 20px;
+  text-align: left;
+  transition: all 0.2s;
+}
+
+.nice-select .option:hover,
+.nice-select .option.focus,
+.nice-select .option.selected.focus {
+  background: #ebebeb;
+  color: #666666;
+}
+
+.nice-select .option.selected {
+  font-weight: bold;
+}
+
+.nice-select .option {
+  color: #666666;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: -0.25px;
+  margin: 0;
+}
+
+.lado-esquerdo-todas-conversas-conversas {
+  height: calc(100% - 160px);
+  background: #ffffff;
+  overflow-y: scroll;
+}
+
+.lado-esquerdo-todas-conversas-conversas::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+.lado-esquerdo-todas-conversas-conversas::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 25px;
+}
+
+.novo-grupo {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.novo-grupo:hover {
+  background: #eeeeee;
+}
+
+.responsivo-novo-grupo {
+  margin: 0px;
+  width: 70px;
+  height: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+}
+
+.responsivo-novo-grupo:nth-child(2) {
+  margin: 0px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  display: flex;
+}
+
+.novo-grupo-img {
+  margin-top: 10px;
+  margin-left: 17.5px;
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 30% 45%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-collapse: collapse;
+  border-radius: 100%;
+  background: #943ce6;
+  cursor: pointer;
+}
+
+.novo-grupo-img-img {
+  fill: #000000;
+  height: auto;
+  user-select: none;
+}
+
+.novo-grupo-text {
+  margin-top: 14px;
+  margin-left: 5px;
+  padding: 20px 0px;
+  width: 100%;
+  height: auto;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: 500;
+  color: #444444;
+  user-select: none;
+}
+
+.nome-usuarios {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  cursor: text;
+}
+
+.nome-usuarios-text {
+  padding-left: 30px;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 500;
+  color: #943ce6;
+  user-select: none;
+}
+
+.todos-os-usuarios {
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+.lado-esquerdo-todas-conversas-jaconversa-chat {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lado-esquerdo-todas-conversas-jaconversa-chat:hover {
+  background: #eeeeee;
+}
+
+.lado-esquerdo-todas-conversas-responsivo-conversa {
+  margin: 0px;
+  width: 70px;
+  height: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+}
+
+.lado-esquerdo-todas-conversas-responsivo-conversa:nth-child(2) {
+  margin: 0px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  display: flex;
+}
+
+.lado-esquerdo-todas-conversas-jaconversa-chat-img {
+  margin-top: 10px;
+  margin-left: 14px;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  background: #c0c0c0;
+  background-position: 30% 45%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-collapse: collapse;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.lado-esquerdo-todas-conversas-responsivo-conversa-line {
+  margin: 0px;
+  width: 60px;
+  height: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.lado-esquerdo-todas-conversas-user {
+  margin-top: 15px;
+  margin-left: 5px;
+  width: 95%;
+  height: auto;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: 500;
+  color: #444444;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+.lado-esquerdo-todas-conversas-recado {
+  margin-top: -18px;
+  margin-left: 5px;
+  width: 95%;
+  height: auto;
+  font-family: arial;
+  font-size: 13px;
+  color: #4b5961;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+}

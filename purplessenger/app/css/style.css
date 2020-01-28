@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0px;
+  background: rgba(25, 24, 31, 0.1);
+}
+
+@font-face {
+  font-family: coolvetica;
+  src: url("../fonts/coolvetica/coolveticarg.ttf");
+}
+
+@media (min-width: 1440px) {
+  .targa-topo {
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    background: #8a2be2;
+  }
+
+  .chat {
+    display: flex;
+    align-items: stretch;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 695px);
+    max-width: 1390px;
+    width: calc(100% - 50px);
+    height: calc(100% - 40px);
+    background: #ffffff;
+    z-index: 1;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 1439px) {
+  .targa-topo {
+    display: none;
+  }
+
+  .chat {
+    display: flex;
+    align-items: stretch;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: 1;
+  }
+}

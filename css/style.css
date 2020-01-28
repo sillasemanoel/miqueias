@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: coolvetica;
+  src: url("../fonts/coolvetica/coolveticarg.ttf");
+}
+
+.login-box {
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 175px);
+  width: 350px;
+  height: 300px;
+}
+
+.logo_field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  user-select: none;
+}
+
+.logo {
+  font-family: coolvetica;
+  font-size: 44px;
+  font-weight: 550;
+  color: #8a2be2;
+  cursor: pointer;
+}
+
+.cpf {
+  margin-top: 40px;
+  padding-left: 10px;
+  width: 80%;
+  height: 29px;
+  border-radius: 5px;
+  border: 1px solid #b5b5b5;
+  outline: none;
+  user-select: none;
+}
+
+.password {
+  margin-top: 20px;
+  padding-left: 10px;
+  width: 80%;
+  height: 29px;
+  border-radius: 5px;
+  border: 1px solid #b5b5b5;
+  outline: none;
+  user-select: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+}
+
+.forgot_password {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #1c1c1c;
+  font-family: arial;
+  font-size: 13px;
+  user-select: none;
+}
+
+.enter_button {
+  width: 90px;
+  height: 30px;
+  background: #8a2be2;
+  border: 0px;
+  border-radius: 5px;
+  font-family: arial;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.responsible {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: auto;
+  height: auto;
+}
+
+.element {
+  position: relative;
+  top: 1px;
+  margin-right: 5px;
+  font-family: arial;
+  font-size: 13px;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+}
+
+.element_name {
+  font-family: arial;
+  font-size: 15px;
+  color: #8a2be2;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+}
+
+.eventos-login-img {
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  margin-left: 10px;
+  background-position: 30% 45%;
+  background-size: cover;
+  border-collapse: collapse;
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+}

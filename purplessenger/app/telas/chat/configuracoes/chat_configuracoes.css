@@ -1,0 +1,187 @@
+.configuracoes {
+  display: none;
+  width: 400px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  background: #ffffff;
+}
+
+.configuracoes-menu {
+  height: 110px;
+  background: #943ce6;
+  display: flex;
+}
+
+.configuracoes-seta {
+  margin-left: 25px;
+  margin-top: 70px;
+  fill: #000000;
+  cursor: pointer;
+  user-select: none;
+}
+
+.configuracoes-nome {
+  margin-left: 15px;
+  margin-top: 46px;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 75px;
+  user-select: none;
+  cursor: text;
+}
+
+.configuracoes-conteudo {
+  width: 100%;
+  height: calc(100% - 110px);
+  overflow-y: scroll;
+}
+
+.configuracoes-conteudo::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+.configuracoes-conteudo::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 25px;
+}
+
+.configuracoes-perfil {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  cursor: pointer;
+}
+
+.configuracoes-perfil:hover {
+  background: #eeeeee;
+}
+
+.configuracoes-perfil-img {
+  margin-left: 20px;
+  width: 90px;
+  height: 90px;
+  background: #c0c0c0;
+  background-position: 30% 45%;
+  background-size: cover;
+  border-collapse: collapse;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.configuracoes-perfil-nome-recado {
+  width: 240px;
+  height: 110px;
+}
+
+.configuracoes-perfil-nome {
+  margin-top: 30px;
+  padding: 0px 5%;
+  width: 90%;
+  height: auto;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 500;
+  color: #444444;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+.configuracoes-perfil-recado {
+  margin-top: -13px;
+  padding: 0px 5%;
+  width: 90%;
+  height: auto;
+  font-family: arial;
+  font-size: 13px;
+  color: #4b5961;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+.configuracoes-papel-de-parede {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+}
+
+.configuracoes-papel-de-parede:hover {
+  background: #eeeeee;
+}
+
+.configuracoes-papel-de-parede-img {
+  margin-left: 20px;
+  fill: #000000;
+  user-select: none;
+}
+
+.configuracoes-papel-de-parede-text {
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 90%;
+  height: auto;
+  font-family: arial;
+  font-size: 17px;
+  font-weight: 400;
+  color: #444444;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+  vertical-align: baseline;
+  outline: none;
+  padding: 0;
+  border: 0;
+}
+
+.configuracoes-ajuda {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+}
+
+.configuracoes-ajuda:hover {
+  background: #eeeeee;
+}
+
+.configuracoes-ajuda-img {
+  margin-left: 22px;
+  fill: #000000;
+  user-select: none;
+}
+
+.configuracoes-ajuda-text {
+  margin-left: 22px;
+  margin-top: 15px;
+  width: 90%;
+  height: auto;
+  font-family: arial;
+  font-size: 17px;
+  font-weight: 400;
+  color: #444444;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+  vertical-align: baseline;
+  outline: none;
+  padding: 0;
+  border: 0;
+}
